@@ -1,6 +1,6 @@
 # Дерево устройства для сборки прошивки *Resurrection Remix-N*
 # Это дерево создано на основе работы @Decker (www.decker.su), без него ничего бы не было.Отдельное спасибо за консультации igor-s74 (http://4pda.ru/forum/index.php?showuser=4444674)
-и kaito373 (http://4pda.ru/forum/index.php?showuser=5083350) тестирование и поддержка.
+# kaito373 (http://4pda.ru/forum/index.php?showuser=5083350) тестирование и поддержка.
 ---------------
 Инструкция по запуску компиляции Resurrection Remix-N
 ---------------
