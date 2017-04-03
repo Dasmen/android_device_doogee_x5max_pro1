@@ -103,7 +103,7 @@ git clone https://github.com/bolt1502/android_vendor_doogee_x5max_pro1.git x5max
 ```
 Заходим 
 ```
-cd RR/device/x5max_pro/patches
+cd RR/device/doogee/x5max_pro/patches
 ```
 закинуть файл revert_sepolicy_to29.patch по пути system/sepolicy и применить
 ```
