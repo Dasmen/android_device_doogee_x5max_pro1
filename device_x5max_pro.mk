@@ -202,9 +202,6 @@ PRODUCT_PACKAGES += \
     libmrdump \
     mrdump_tool
 
-# 3rd-party apps
-PRODUCT_PACKAGES += \
-	Telegram+3.16.1
 
 #Hack for prebuilt kernel
 $(shell mkdir -p $(OUT)/obj/KERNEL_OBJ/usr)
@@ -225,13 +222,6 @@ TARGET_SCREEN_WIDTH := 720
 # must enable for 2 Gb RAM - phone-xhdpi-2048-dalvik-heap.mk
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
-## Statistics
-PRODUCT_PROPERTY_OVERRIDES += \
-  ro.romstats.name=ResurrectionRemix \
-  ro.romstats.version=5.8.2_64_bit \
-  ro.romstats.tframe=7 
-PRODUCT_PACKAGES += \
-	RomStats
 
 ## CM14 mtk symbols
 PRODUCT_PACKAGES += \
